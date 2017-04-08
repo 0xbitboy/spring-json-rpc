@@ -17,6 +17,19 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.github.briandilley.jsonrpc4j</groupId>
+            <artifactId>jsonrpc4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.liaojiacan</groupId>
+            <artifactId>example-service</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <finalName>example-provider</finalName>
