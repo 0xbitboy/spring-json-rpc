@@ -4,12 +4,14 @@ import com.github.liaojiacan.jsonrpc.api.dto.UserDTO;
 import com.github.liaojiacan.jsonrpc.api.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
 import java.util.Date;
 
 /**
  * Created by liaojiacan on 2017/4/8.
  */
+@Service("userService")
 public class UserServiceImpl implements UserService {
 
 
